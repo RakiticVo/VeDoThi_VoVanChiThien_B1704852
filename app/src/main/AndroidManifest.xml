@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chithien.vvct.vedothi_vovanchithien_b1704852">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VeDoThi_VoVanChiThien_B1704852">
+        <activity android:name=".PieChart.pieChart9"></activity>
+        <activity android:name=".PieChart.pieChart8" />
+        <activity android:name=".PieChart.pieChart7" />
+        <activity android:name=".PieChart.pieChart6" />
+        <activity android:name=".PieChart.pieChart5" />
+        <activity android:name=".PieChart.pieChart4" />
+        <activity android:name=".PieChart.pieChart3" />
+        <activity android:name=".PieChart.pieChart2" />
+        <activity android:name=".BarChart.BarChart9" />
+        <activity android:name=".BarChart.BarChart8" />
+        <activity android:name=".BarChart.BarChart7" />
+        <activity android:name=".BarChart.BarChart6" />
+        <activity android:name=".BarChart.BarChart5" />
+        <activity android:name=".BarChart.BarChart4" />
+        <activity android:name=".BarChart.BarChart3" />
+        <activity android:name=".BarChart.BarChart2" />
+        <activity android:name=".PieChartsActivity" />
+        <activity android:name=".BarChartsActivity" />
+        <activity android:name=".NhaplieuLinesPlot" />
+        <activity android:name=".LinesPlotActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
